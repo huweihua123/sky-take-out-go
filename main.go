@@ -1,7 +1,7 @@
 /*
  * @Author: weihua hu
  * @Date: 2024-12-15 14:52:05
- * @LastEditTime: 2024-12-15 23:02:05
+ * @LastEditTime: 2024-12-26 22:44:28
  * @LastEditors: weihua hu
  * @Description:
  */
@@ -17,6 +17,8 @@ import (
 func main() {
 	initialize.InitLogger()
 	initialize.InitDB()
+	initialize.InitWx()
+	initialize.InitConfig()
 	Router := initialize.Routers()
 
 	Port := 8084

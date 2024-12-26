@@ -1,7 +1,7 @@
 /*
  * @Author: weihua hu
  * @Date: 2024-12-15 15:06:45
- * @LastEditTime: 2024-12-19 23:26:11
+ * @LastEditTime: 2024-12-26 22:46:18
  * @LastEditors: weihua hu
  * @Description:
  */
@@ -38,10 +38,11 @@ func Login(ctx *gin.Context) {
 		return
 	}
 	// 生成JWT令牌
-	j := middlewares.NewJWT()
+	j := middlewares.NewAdminJWT()
 	claims := models.CustomClaims{
 		ID:       employee.ID,
 		NickName: employee.Username,
+		Role:     "admin",
 		StandardClaims: jwt.StandardClaims{
 			ExpiresAt: time.Now().Add(3 * time.Hour).Unix(),
 			Issuer:    "sky-take-out-go",

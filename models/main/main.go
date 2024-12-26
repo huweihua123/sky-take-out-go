@@ -1,7 +1,7 @@
 /*
  * @Author: weihua hu
  * @Date: 2024-12-15 23:31:23
- * @LastEditTime: 2024-12-20 00:22:59
+ * @LastEditTime: 2024-12-26 20:25:26
  * @LastEditors: weihua hu
  * @Description:
  */
@@ -42,6 +42,7 @@ func main() {
 		panic(err)
 	}
 
-	_ = db.AutoMigrate(&entity.Employee{}, &entity.Category{}, &entity.Dish{})
+	_ = db.AutoMigrate(&entity.AddressBook{})
+	// _ = db.AutoMigrate(&entity.Employee{}, &entity.Category{}, &entity.Dish{}, &entity.DishFlavor{})
 
 }

@@ -40,8 +40,10 @@ require (
 require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gin-gonic/gin v1.10.0
+	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
+	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
 	go.uber.org/zap v1.27.0
 	golang.org/x/text v0.15.0 // indirect
 )

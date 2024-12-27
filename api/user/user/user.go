@@ -1,7 +1,7 @@
 /*
  * @Author: weihua hu
  * @Date: 2024-12-26 16:10:17
- * @LastEditTime: 2024-12-26 22:44:18
+ * @LastEditTime: 2024-12-28 00:01:28
  * @LastEditors: weihua hu
  * @Description:
  */
@@ -18,7 +18,7 @@ import (
 	"sky-take-out-go/models"
 	"sky-take-out-go/models/dto"
 	"sky-take-out-go/models/vo"
-	service "sky-take-out-go/service/user"
+	service "sky-take-out-go/service/user/user"
 	"sky-take-out-go/utils"
 	"sort"
 	"time"

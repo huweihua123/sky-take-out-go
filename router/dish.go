@@ -1,14 +1,14 @@
 /*
  * @Author: weihua hu
  * @Date: 2024-12-21 16:53:13
- * @LastEditTime: 2024-12-22 21:05:15
+ * @LastEditTime: 2024-12-27 23:59:05
  * @LastEditors: weihua hu
  * @Description:
  */
 package router
 
 import (
-	api "sky-take-out-go/api/dish"
+	api "sky-take-out-go/api/admin/dish"
 
 	"github.com/gin-gonic/gin"
 )

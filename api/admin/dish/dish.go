@@ -1,7 +1,7 @@
 /*
  * @Author: weihua hu
  * @Date: 2024-12-20 00:27:00
- * @LastEditTime: 2024-12-22 00:45:18
+ * @LastEditTime: 2024-12-28 00:01:46
  * @LastEditors: weihua hu
  * @Description:
  */
@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"sky-take-out-go/common/result"
 	"sky-take-out-go/models/dto"
-	service "sky-take-out-go/service/dish"
+	service "sky-take-out-go/service/admin/dish"
 	"strconv"
 	"strings"
 

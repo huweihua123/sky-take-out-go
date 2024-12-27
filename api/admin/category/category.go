@@ -1,7 +1,7 @@
 /*
  * @Author: weihua hu
  * @Date: 2024-12-20 00:17:25
- * @LastEditTime: 2024-12-20 18:30:29
+ * @LastEditTime: 2024-12-28 00:01:36
  * @LastEditors: weihua hu
  * @Description:
  */
@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"sky-take-out-go/common/result"
 	"sky-take-out-go/models/dto"
-	service "sky-take-out-go/service/category"
+	service "sky-take-out-go/service/admin/category"
 	"strconv"
 
 	"github.com/gin-gonic/gin"

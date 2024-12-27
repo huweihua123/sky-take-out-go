@@ -11,7 +11,7 @@ import (
 	"net/http"
 	result "sky-take-out-go/common/result"
 	"sky-take-out-go/models/dto"
-	service "sky-take-out-go/service/setmeal"
+	service "sky-take-out-go/service/admin/setmeal"
 	"strconv"
 	"strings"
 

@@ -1,7 +1,7 @@
 /*
  * @Author: weihua hu
  * @Date: 2024-12-16 00:10:00
- * @LastEditTime: 2024-12-16 00:37:42
+ * @LastEditTime: 2024-12-26 22:01:07
  * @LastEditors: weihua hu
  * @Description:
  */
@@ -14,5 +14,6 @@ import (
 type CustomClaims struct {
 	ID       int64
 	NickName string
+	Role     string
 	jwt.StandardClaims
 }

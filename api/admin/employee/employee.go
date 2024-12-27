@@ -1,7 +1,7 @@
 /*
  * @Author: weihua hu
  * @Date: 2024-12-15 15:06:45
- * @LastEditTime: 2024-12-26 22:46:18
+ * @LastEditTime: 2024-12-28 00:01:51
  * @LastEditors: weihua hu
  * @Description:
  */
@@ -14,7 +14,7 @@ import (
 	"sky-take-out-go/models"
 	"sky-take-out-go/models/dto"
 	"sky-take-out-go/models/vo"
-	service "sky-take-out-go/service/employee"
+	service "sky-take-out-go/service/admin/employee"
 	"strconv"
 	"time"
 
